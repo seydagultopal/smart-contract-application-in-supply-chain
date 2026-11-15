@@ -1,0 +1,58 @@
+# Dart / Flutter
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+.flutter-versions
+
+# Generated plugin registrants
+**/GeneratedPluginRegistrant.*
+
+# IDEs and editors
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# Android / Gradle
+**/android/.gradle/
+**/android/local.properties
+**/android/key.properties
+**/android/captures/
+**/android/.cxx/
+
+# iOS / Xcode
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/ephemeral/
+**/ios/Runner.xcworkspace/xcuserdata/
+
+# macOS
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Pods/
+
+# Firebase configuration and credentials
+# Keep client configuration only when intentionally required by the app.
+**/firebase_options.dart
+**/GoogleService-Info.plist
+**/google-services.json
+**/service-account*.json
+**/*serviceAccount*.json
+**/*.jks
+**/*.keystore
+**/.env
+**/.env.*
+
+# Logs and crash reports
+*.log
+*.stackdump
